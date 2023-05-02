@@ -37,3 +37,43 @@ nav {
   width: 75px;
   height: 75px;
 }
+
+ul > li {
+  position: relative;
+}
+
+ul > li > img.meny-bakgrundsbild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.meny-text {
+  color: white;
+}
+
+body {
+  background-image: url("sidbakgrund.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p{
+  color: white;
+}
