@@ -5,6 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="hhh.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".meny-bild").click(function() {
+				$(this).toggleClass("rotate");
+			});
+		});
+	</script>
 </head>
 <body>
 	<header>
@@ -19,6 +27,7 @@
 	</header>
 	<section>
 		<h2>Meny</h2>
+		<h5>tryck gärna på pizzorna</h5>
 		<ul>
 			<li>
 				<img class="meny-bakgrundsbild" src="meny-bakgrund.jpg" alt="Bakgrundsbild">

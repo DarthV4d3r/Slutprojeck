@@ -74,6 +74,24 @@ h3 {
   color: white;
 }
 
+h5 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
 p{
   color: white;
+}
+
+.rotate {
+	animation: spin 1s linear forwards;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
 }
